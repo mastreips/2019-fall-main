@@ -45,6 +45,14 @@ class AnswersTest(unittest.TestCase):
           h.update(','.join(str(self.answers[k])).encode('utf-8'))
           self.assertEqual(h.hexdigest()[:5], v, msg='%s incorrect' % k)
 
+    def test_placeholder(self):
+        self.assertTrue(self.answers['email'].endswith('@berkeley.edu'))
+        self.assertFalse(self.answers['email'].startswith('placeholder'))
+
+    def test_names(self):
+        self.assertNotEqual(self.answers['last_name'], 'Lastname')
+        self.assertNotEqual(self.answers['first_name'], 'Firstname')
+
 
 if __name__ == '__main__':
     unittest.main()
