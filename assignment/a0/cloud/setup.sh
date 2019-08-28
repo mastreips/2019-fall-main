@@ -16,6 +16,8 @@ bash "$ANACONDA_INSTALLER"
 
 source ${HOME}/.bashrc
 
+${HOME}/anaconda3/bin/conda update --all
+${HOME}/anaconda3/bin/conda update wrapt
 ${HOME}/anaconda3/bin/pip install --upgrade pip
 ${HOME}/anaconda3/bin/pip install tensorflow
 ${HOME}/anaconda3/bin/jupyter notebook --generate-config
