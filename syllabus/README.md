@@ -144,7 +144,7 @@ will be released around the last live session of the week and due approximately 
     <li>Google Cloud
   </ul></td>
   <td></td>
-  <td>October&nbsp;1</td>
+  <td>September&nbsp;1</td>
 </tr>
 <tr>
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
