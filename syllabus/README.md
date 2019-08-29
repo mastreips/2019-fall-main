@@ -143,8 +143,8 @@ will be released around the last live session of the week and due approximately 
     <li>Piazza
     <li>Google Cloud
   </ul></td>
-  <td>May&nbsp;6</td>
-  <td>May&nbsp;12</td>
+  <td></td>
+  <td>October&nbsp;1</td>
 </tr>
 <tr>
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
