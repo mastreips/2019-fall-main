@@ -35,7 +35,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Sid J Reddy**: Saturday immediately after his live session
 * **James Kunz**: Tuesday immediately after his live session
 * **Mike Tamir**: Tuesday immediately after his live session
-* **Drew Plant**: TBD
+* **Drew Plant**: Sunday 11am - 12 PST
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
