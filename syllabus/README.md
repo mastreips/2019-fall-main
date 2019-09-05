@@ -52,7 +52,7 @@ Office hours are for the whole class; students from any section are welcome to a
 Your grade report can be found at [https://w266grades.appspot.com](https://w266grades.appspot.com).
 
 Your grade will be determined as follows:
-* **Quizes / Assignments**: 40%
+* **Weekly Assignments**: 40%
 * **Final Project**: 60%
 * **Participation**: Up to 10% bonus
 
