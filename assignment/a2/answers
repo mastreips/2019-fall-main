@@ -22,80 +22,76 @@
 # (This question is multiple choice.  Delete all but the correct answer).
 project_1_1: 
  - True
- - False
 
 # Question 2 (/1): Have you looked at the schedule in Piazza of paper reading sessions and decided which is closest to your project topic idea?
 # (This question is multiple choice.  Delete all but the correct answer).
-project_1_2: 
+project_1_2:
  - True
- - False
 
 # Question 3 (/1): Have you found at least one paper that is related to your topic?
 # (This question is multiple choice.  Delete all but the correct answer).
-project_1_3: 
+project_1_3:
  - True
- - False
 
 # Question 4 (/0): Have you downloaded and looked at a potential dataset?
 # (This question is multiple choice.  Delete all but the correct answer).
-project_1_4: 
+project_1_4:
  - True
- - False
 
 
 
 ###################################################################
 ###################################################################
-## Neural Network Basics (14 points)
+## Neural Network Basics (14 point    s)
 ###################################################################
 ###################################################################
 
 
 # ------------------------------------------------------------------
-# | Section (A): Logistic Regression (2 points)  | 
+# | Section (A): Logistic Regression (2 points)  |
 # ------------------------------------------------------------------
 
 # Question 1.1 (/1): What are the dimensions of W?  (Hint... don't change the dimensionality of the answer.)
-neural_network_basics_a_1_1: [d0]
+neural_network_basics_a_1_1: [d10]
 
 # Question 1.2 (/1): What are the dimensions of b?  (Hint... don't change the dimensionality of the answer.)
-neural_network_basics_a_1_2: [d0]
+neural_network_basics_a_1_2: [d1]
 
 
 # ------------------------------------------------------------------
-# | Section (B): Batching (4 points)  | 
+# | Section (B): Batching (4 points)  |
 # ------------------------------------------------------------------
 
 # Question 1 (/1): What are the dimensions of W?
-neural_network_basics_b_1: [d0]
+neural_network_basics_b_1: [d10]
 
 # Question 2 (/1): What are the dimensions of b?
-neural_network_basics_b_2: [d0]
+neural_network_basics_b_2: [d1]
 
 # Question 3 (/1): What are the dimensions of x?
-neural_network_basics_b_3: [d0, d1]
+neural_network_basics_b_3: [d30, d10]
 
 # Question 4 (/1): What are the dimensions of z?
-neural_network_basics_b_4: [d0]
+neural_network_basics_b_4: [d30]
 
 
 # ------------------------------------------------------------------
-# | Section (C): Logistic Regression NumPy Implementation (2 points)  | 
+# | Section (C): Logistic Regression NumPy Implementation (2 points)  |
 # ------------------------------------------------------------------
 
 # Question 1 (/1): What is the probability of the positive class for [0, 0, 0, 0, 5]?
-neural_network_basics_c_1: 0.00000
+neural_network_basics_c_1: 0.5
 
 # Question 2 (/1): What's the cross entropy loss if the second example is positive?
-neural_network_basics_c_2: 0
+neural_network_basics_c_2: 0.6931471805599453 or 1.0
 
 
 # ------------------------------------------------------------------
-# | Section (D): NumPy Feed Forward Neural Network (2 points)  | 
+# | Section (D): NumPy Feed Forward Neural Network (2 points)  |
 # ------------------------------------------------------------------
 
 # Question 1 (/1): What is the probability of the third example in the batch?
-neural_network_basics_d_1: 0.00000
+neural_network_basics_d_1: 0.06970923
 
 # Question 2 (/1): What is the cross-entropy loss if its label is negative?
 neural_network_basics_d_2: 0.00000
