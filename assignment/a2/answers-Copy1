@@ -1,0 +1,149 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 3 parts for a total of 23 points.
+# For numerical answers, copy and paste at lea st 5 significant figures.
+# - Project (3 points)
+# - Neural Network Basics (14 points)
+# - TensorFlow (6 points)
+
+
+
+###################################################################
+###################################################################
+## Project (3 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Project Proposal Prep (unrelated to a notebook) (3 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Is your group size one or two?  If your group size is three, have you consulted with your instructor and have their agreement that your project makes sense to do in a group of three?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_1: 
+ - True
+ - False
+
+# Question 2 (/1): Have you looked at the schedule in Piazza of paper reading sessions and decided which is closest to your project topic idea?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_2: 
+ - True
+ - False
+
+# Question 3 (/1): Have you found at least one paper that is related to your topic?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_3: 
+ - True
+ - False
+
+# Question 4 (/0): Have you downloaded and looked at a potential dataset?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_4: 
+ - True
+ - False
+
+
+
+###################################################################
+###################################################################
+## Neural Network Basics (14 point    s)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (A): Logistic Regression (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1.1 (/1): What are the dimensions of W?  (Hint... don't change the dimensionality of the answer.)
+neural_network_basics_a_1_1: [d0]
+
+# Question 1.2 (/1): What are the dimensions of b?  (Hint... don't change the dimensionality of the answer.)
+neural_network_basics_a_1_2: [d0]
+
+
+# ------------------------------------------------------------------
+# | Section (B): Batching (4 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What are the dimensions of W?
+neural_network_basics_b_1: [d0]
+
+# Question 2 (/1): What are the dimensions of b?
+neural_network_basics_b_2: [d0]
+
+# Question 3 (/1): What are the dimensions of x?
+neural_network_basics_b_3: [d0, d1]
+
+# Question 4 (/1): What are the dimensions of z?
+neural_network_basics_b_4: [d0]
+
+
+# ------------------------------------------------------------------
+# | Section (C): Logistic Regression NumPy Implementation (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What is the probability of the positive class for [0, 0, 0, 0, 5]?
+neural_network_basics_c_1: 0.00000
+
+# Question 2 (/1): What's the cross entropy loss if the second example is positive?
+neural_network_basics_c_2: 0
+
+
+# ------------------------------------------------------------------
+# | Section (D): NumPy Feed Forward Neural Network (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What is the probability of the third example in the batch?
+neural_network_basics_d_1: 0.00000
+
+# Question 2 (/1): What is the cross-entropy loss if its label is negative?
+neural_network_basics_d_2: 0.00000
+
+
+# ------------------------------------------------------------------
+# | Section (E): Softmax (4 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What is the probability of the middle class?
+neural_network_basics_e_1: 0.00000
+
+# Question 2 (/1): What is the cross-entropy loss if the correct class is the last (z=3)?
+neural_network_basics_e_2: 0.00000
+
+# Question 3.1 (/1): What is the dimension of W3 above if it were a three class problem instead of a binary one?
+neural_network_basics_e_3_1: [d0, d1]
+
+# Question 3.2 (/1): What is the dimension of b3 above if it were a three class problem?
+neural_network_basics_e_3_2: [d0]
+
+
+
+###################################################################
+###################################################################
+## TensorFlow (6 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Binary Classifier (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What's the derivative of a relu(z) with respect to z if z = -5?
+tensorflow_1_1: 0
+
+# Question 2 (/1): What's the derivative of relu(z) with respect to z if z = 5
+tensorflow_1_2: 0
+
+# Question 3 (/2): Why do you still use a sigmoid at the top of the binary classification network?
+# (This question is multiple choice.  Delete all but the correct answer).
+tensorflow_1_3: 
+ - Its range matches what is allowed for a probability.
+ - Sigmoid is convenient, but you lose nothing by using a Relu or Tanh
+
+# Question 4 (/1): How few layers can you get away with and still achieve the desired loss on the training set?
+tensorflow_1_4: 0
+
+# Question 5 (/1): How small is the biggest hidden layer is the smallest you can use in the body of the network and still achieve the desired loss on the training set?
+tensorflow_1_5: 0
