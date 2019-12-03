@@ -33,7 +33,7 @@ On GCP n1-standard-1 (1 vCPU, 3.75 GB memory)
 
 4) replace files in codebase directory with those provided in /BERT_GAT/ directory (Customized Code)
 
-5) run data processing code in Fake_News_GAT_analysis_v2 in jupyter notebook/lab 
+5) run data processing code in `Fake_News_GAT_analysis_v2.ipynb` in jupyter notebook/lab 
 
 ### GAT Modeling
 
@@ -41,15 +41,15 @@ On GCP n1-standard-1 (1 vCPU, 3.75 GB memory)
 
 1) git clone https://github.com/dmlc/dgl
 
-2) Replace gotconv.py file from DGL directory for file in python pkg directory (dlg) (Customized Code)
+2) Replace `gatconv.py` file from DGL directory for file in python pkg directory (dlg) (Customized Code)
 
-3) run GAT modeling code in Fake_News_GAT_analysis_v2 in jupyter notebook/lab
+3) run GAT modeling code in `Fake_News_GAT_analysis_v2.ipynb` in jupyter notebook/lab
 
 ### LIME Analysis of BERT Embeddings
 
 On Google Colab 
 
-1) run bert_lime_analysis.ipynb.  This will install the bert-sklearn wrapper and the lime libraries which are necessary to for the LIME analysis. 
+1) run `bert_lime_analysis.ipynb` with resources set to use GPU acceleration.  This will install the bert-sklearn wrapper and the lime libraries which are necessary to for the LIME analysis. 
 
 
 
