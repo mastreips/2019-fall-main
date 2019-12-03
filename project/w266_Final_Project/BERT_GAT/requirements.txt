@@ -1,0 +1,15 @@
+tensorflow==1.15
+tensorflow-hub
+tensorflow-estimator==1.15.1
+argparse
+networkx
+scipy
+pandas
+scikit-learn
+pickleshare
+nltk
+jsonschema
+h5py
+cloudpickle
+bert-tensorflow
+
