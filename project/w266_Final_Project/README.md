@@ -49,6 +49,9 @@ On GCP n1-standard-1 (1 vCPU, 3.75 GB memory)
 
 On Google Colab 
 
+Using pytorch version: 1.3.1
+On GPU: Tesla P100-PCIE-16GB
+
 1) run `bert_lime_analysis.ipynb` with resources set to use GPU acceleration.  This will install the bert-sklearn wrapper and the lime libraries which are necessary to for the LIME analysis. 
 
 
